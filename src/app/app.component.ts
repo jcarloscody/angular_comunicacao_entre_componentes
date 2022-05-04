@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  age = 25;
+  title = 'comunicao_entre_componentes';
 }
