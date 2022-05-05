@@ -14,6 +14,7 @@ Comandos para Execução do Projeto
 > `Executar`: ng serve
 
 
+## Algumas instruções sobre os conceitos tratados
 
 > - [`Input Binding`](https://github.com/jcarloscody/angular_comunicacao_entre_componentes/tree/master/src/app/input-binding)`@Input()  @Input('nome_qq')`** Aqui o foco é passar atributos para o componente por meio do template. 
 > - [`Event Emitter`](https://github.com/jcarloscody/angular_comunicacao_entre_componentes/tree/master/src/app/event-emitter) **`@Output()`**  Com ele podemos passar do componente filho um evento que o componente pai poderá receber.
