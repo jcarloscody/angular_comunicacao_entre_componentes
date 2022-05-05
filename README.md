@@ -1,5 +1,20 @@
 # Comunição entre Componentes
 
+Neste repositório verás a forma que podemos fazer para haver uma comunicação entre os componentes
+
+
+Instalação
+> [Download Node](https://nodejs.org/en/download/)
+
+Comandos para Execução do Projeto
+> `Instalação angular`: npm install -g @angular/cli
+
+> `Baixar as dependências`: npm i
+
+> `Executar`: ng serve
+
+
+
 > - [`Input Binding`](https://github.com/jcarloscody/angular_comunicacao_entre_componentes/tree/master/src/app/input-binding)`@Input()  @Input('nome_qq')`** Aqui o foco é passar atributos para o componente por meio do template. 
 > - [`Event Emitter`](https://github.com/jcarloscody/angular_comunicacao_entre_componentes/tree/master/src/app/event-emitter) **`@Output()`**  Com ele podemos passar do componente filho um evento que o componente pai poderá receber.
 >   - recebendo como parâmetro:  `(evento) = "funcao($event)"`
