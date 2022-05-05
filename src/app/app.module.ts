@@ -1,3 +1,4 @@
+import { NameComponent } from './intercepting/name/name.component';
 import { OnChangesComponent } from './on-changes/on-changes.component';
 import { TimerComponent } from './parent-child/timer/timer.component';
 import { NgModule } from '@angular/core';
@@ -17,9 +18,12 @@ import { EventEmitterComponent } from './event-emitter/event-emitter.component';
 import { ChildItemComponent } from './event-emitter/child-item/child-item.component';
 import { ParentChildComponent } from './parent-child/parent-child.component';
 import { NameChangesComponent } from './on-changes/name-changes/name-changes.component';
+import { InterceptingComponent } from './intercepting/intercepting.component';
 @NgModule({
   declarations: [
     ParentChildComponent,
+    NameComponent,
+    InterceptingComponent,
     OnChangesComponent,
     NameChangesComponent,
     TimerComponent,

@@ -6,6 +6,5 @@
 > - [`Variáveis de templates`](https://github.com/jcarloscody/angular_comunicacao_entre_componentes/tree/master/src/app/parent-child) **`@ViewChild(NomeDoComponente)  ou  @ViewChild("variavelTemplateDeclarada")`** por esta variável você referencia os métodos e afins da classe do componente. é importante saber que se seguir esta primeira sintaxe ela pegará apenas o primeiro componente que aparecer que é do tipo NomeDoComponente e vai injetar uma instância dentro da classe, ou seja, não iremos criar uma instância, vamos apenas injetar uma instância que já existe. Você também pode cumular a sintaxe supra e a sintaxe infra quando tem mais de um componente.
 >   - **`<tag #variavelTemplateDeclarada> </tag>`** com isto você também consegue tipicar uma variável de ElementRef com o citado @View para fazer várias coisas.
 > - [`NgOnChanges`](https://github.com/jcarloscody/angular_comunicacao_entre_componentes/tree/master/src/app/on-changes) **`OnChanges`**  é uma interface que quando a implementamos por meio do método `ngOnChanges(changes: {[propKey: string]: SimpleChange})` vamos receber as mudanças, então por meio deste objeto changes que é do tipo SimpleChange que possui atributos como currentValue, firstChange, previousValue.
-> - [`Input Binding`]() **``** 
-> - [`Input Binding`]() **``** 
+> - [`Interceptando Changes com @input()`]() **`@input()`** outra forma para interceptar mudanças usando este.
 
